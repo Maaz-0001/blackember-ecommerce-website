@@ -5,8 +5,21 @@
 .navbar-brand >img{
   margin-right: 30vw;
 }
+@media screen and (max-width:767px) {
+  .navbar-brand >img{
+   width: 18vw;
+
+  }
+}
 @media screen and (max-width:992px) {
   .navbar-brand >img{
     margin-right: 0;
+
+  }
+}
+@media screen and (max-width:1099px) {
+  .icons-div p{
+    display: none;
+
   }
 }
