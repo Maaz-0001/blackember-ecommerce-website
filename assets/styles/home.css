@@ -2,3 +2,11 @@
   font-size: 13px;
   letter-spacing: 1px;
 }
+.navbar-brand >img{
+  margin-right: 30vw;
+}
+@media screen and (max-width:992px) {
+  .navbar-brand >img{
+    margin-right: 0;
+  }
+}
