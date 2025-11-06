@@ -41,6 +41,9 @@
     height: 600px;
   }
 }
+.sec2{
+  margin-bottom: 150px;
+}
 .cl-div{
   width: 99vw;
   white-space: nowrap;
@@ -48,7 +51,6 @@
 } 
 .product-card {
   display: inline-block;
-  width: ;
   margin-right: 1vw;
   text-align: center;
 }
@@ -77,4 +79,24 @@
   .product-card img {
     width: 80vw;
   } 
+}
+.sec3 div{
+  flex: 1;
+  color: #413f3f;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.sec3>div img{
+  width:100%;
+}
+
+.sec3 button{
+  width: 150px;
+  padding: 13px;
+  border-radius: 75px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.sec3-det{
+  width: 10px;
 }
