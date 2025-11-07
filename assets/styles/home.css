@@ -1,3 +1,6 @@
+.shipping-div{
+  background-color: #232323;
+}
 .days30-p{
   font-size: 13px;
   letter-spacing: 1px;
@@ -97,6 +100,17 @@
   font-size: 13px;
   letter-spacing: 1px;
 }
-.sec3-det{
-  width: 10px;
+.sec3-det div{
+  padding: 70px;
+}
+@media screen and (max-width:766px) {
+  .sec3 {
+    flex-direction: column;
+  } 
+  .sec3-det div{
+    padding: 60px 30px;
+  }
+  .second-sec3{
+    flex-direction: column-reverse;
+  }
 }
