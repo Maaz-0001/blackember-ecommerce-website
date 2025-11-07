@@ -1,0 +1,65 @@
+footer{
+  background-color: #232323;
+  color: #fff;
+  padding: 90px;
+  font-size: 13px;
+}
+.con{
+  margin-bottom: 90px;
+}
+
+@media screen and (max-width:847px) {
+  footer{
+    padding: 30px;
+  }
+  .con{
+    flex-wrap: wrap;
+  }
+
+  .con div{
+    margin-top: 30px;
+  }
+}
+
+/* Container styling */
+.email-input {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc; /* line under input */
+  width: 250px;                 /* adjust as you like */
+  background-color: #232323;    /* dark background */
+  padding: 5px 0;
+  margin-bottom: 15px;
+}
+
+/* Input field styling */
+.email-input input {
+  flex: 1;                      /* takes all available space */
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+  padding: 8px 0;
+}
+
+/* Placeholder color */
+.email-input input::placeholder {
+  color: #ccc;
+}
+
+/* Button styling (arrow) */
+.email-input button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 5px;
+  transition: transform 0.2s;
+}
+
+/* Add subtle hover effect */
+.email-input button:hover {
+  transform: translateX(3px);
+}
