@@ -20,13 +20,19 @@ footer{
     margin-top: 30px;
   }
 }
-
+@media screen and (max-width:767px) {
+  .con{
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  
+}
 /* Container styling */
 .email-input {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ccc; /* line under input */
-  width: 250px;                 /* adjust as you like */
+  border-bottom: 1px solid #ffffff; /* line under input */
+  width: 350px;                 /* adjust as you like */
   background-color: #232323;    /* dark background */
   padding: 5px 0;
   margin-bottom: 15px;
@@ -38,7 +44,7 @@ footer{
   border: none;
   outline: none;
   background: transparent;
-  color: white;
+  color: #ffffff;
   font-size: 14px;
   padding: 8px 0;
 }

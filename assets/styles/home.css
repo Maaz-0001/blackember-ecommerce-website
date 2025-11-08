@@ -99,6 +99,12 @@
   border-radius: 75px;
   font-size: 13px;
   letter-spacing: 1px;
+  background-color: #212529;
+  color: #ffffff;
+}
+.sec3 button:hover{
+  background-color: white;
+  color: #212529;
 }
 .sec3-det div{
   padding: 70px;
